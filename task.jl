@@ -1,13 +1,17 @@
 
-docstring = """
-print `param` (take **String** type as the argument)
+"""
+print `param` (take **Int** type as the argument)
 
-# Third Examples
+# Written example for using docstring in julia
 
 ```julia
-julia> Print(1)
-1
+julia> str = "Hello World\n"
+julia> Print(str*str)
+$(let str = "Hello World"
+    str*str
+end)
 ```
-""";
-
-@doc docstring Print(param::Int) = print(param)
+"""
+function Print(param::String)
+    println(param)
+    end
