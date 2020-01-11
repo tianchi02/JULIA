@@ -1,6 +1,6 @@
 
 """
-print `param` (take **Int** type as the argument)
+print `param` (take **String** type as the argument)
 
 # Written example for using docstring in julia
 
