@@ -2,7 +2,7 @@
 """
 print `param` (take **String** type as the argument)
 
-# Written example for using docstring in julia
+# print the argument once it is passed inside the function
 
 ```julia
 julia> str = "Hello World\n"
